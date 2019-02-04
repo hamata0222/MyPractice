@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_VALUE 100;
+#define MAX_VALUE 100
 
 int main (void)
 {
@@ -10,19 +10,19 @@ int main (void)
     {
         if ((i % 15) == 0)
         {
-            printf ("FizzBuzz");
+            printf ("FizzBuzz\n");
         }
         else if ((i % 5) == 0)
         {
-            printf ("Buzz");
+            printf ("Buzz\n");
         }
         else if ()
         {
-            printf ("Fizz");
+            printf ("Fizz\n");
         }
         else
         {
-            printf ("%d", i);
+            printf ("%d\n", i);
         }
     }
 }

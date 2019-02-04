@@ -1,4 +1,4 @@
-static const int MAX_VALUE = 100;
+static final int MAX_VALUE = 100;
 
 public static void main(String args[]) {
     for (int i = 0; i < MAX_VALUE; i++) {

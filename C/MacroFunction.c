@@ -3,7 +3,7 @@
 #define MACRO_FUNC(name, ret)                       \
     do {                                            \
         printf (#name "_phantom is read...");       \
-        ret = (##name##_phantom);                   \
+        ret = ##name##_phantom;                     \
     } while (0)
 
 int main (void)

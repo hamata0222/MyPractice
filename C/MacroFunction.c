@@ -2,7 +2,7 @@
 
 #define MACRO_FUNC(name, ret)                       \
     do {                                            \
-        printf (#name "_phantom is read...");       \
+        printf (#name "_phantom is read...\n");     \
         ret = name##_phantom;                       \
     } while (0)
 
@@ -14,5 +14,5 @@ int main (void)
     
     MACRO_FUNC (num, val);
     
-    printf ("val = 0x%04X", val);
+    printf ("val = 0x%04X\n", val);
 }

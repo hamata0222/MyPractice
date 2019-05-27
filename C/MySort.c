@@ -17,7 +17,7 @@ int main (void)
     
     order[Max+1] = 1;
     for (i=Max; i>=Min; i--)
-        order[i] = order[i] - order[i+1];
+        order[i] = order[i] + order[i+1];
     
     printf ("  Score / Rank\n");
     for (i=0; i<Num; i++)
